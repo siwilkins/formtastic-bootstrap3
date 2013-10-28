@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<ammeter>, ["~> 0.2.5"])
       s.add_development_dependency(%q<actionpack>, ["~> 3.0"])
     else
-      s.add_dependency(%q<formtastic>, ["~> 2.2"])
+      s.add_dependency(%q<formtastic>, ["2.3.0.rc2"])
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<tzinfo>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.2"])
